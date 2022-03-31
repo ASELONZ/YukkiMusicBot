@@ -107,7 +107,8 @@ async def ping_com(client, message: Message, _):
 
 🔗**Stream Type:** {typo}
 🙍‍♂️**Played By:** {user}
-{send}"""
+{send}
+∞**OWNER:** @ANKIT3690 & @Saurav3BV6SA9LLElon7Musk"""
     upl = (
         queue_markup(_, DUR, "c" if cplay else "g", videoid)
         if DUR == "Unknown"
@@ -287,7 +288,8 @@ async def queue_back(client, CallbackQuery: CallbackQuery, _):
 
 🔗**Stream Type:** {typo}
 🙍‍♂️**Played By:** {user}
-{send}"""
+{send}
+∞**OWNER:** @ANKIT3690 & @Saurav3BV6SA9LLElon7Musk"""
     upl = (
         queue_markup(_, DUR, cplay, videoid)
         if DUR == "Unknown"
