@@ -61,7 +61,7 @@ async def inline_query_handler(client, query):
 ⏰**Published Time:** {published}
 🎥**Channel Name:** {channel}
 📎**Channel Link:** [Visit From Here]({channellink})
-
+∞**OWNER:** @ANKIT3690 & @Saurav3BV6SA9LLElon7Musk
 __Reply with /play on this searched message to stream it on voice chat.__
 
 ⚡️ ** Inline Search By {MUSIC_BOT_NAME} **"""
