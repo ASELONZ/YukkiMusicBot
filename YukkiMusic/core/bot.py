@@ -33,7 +33,7 @@ class YukkiBot(Client):
         self.id = get_me.id
         try:
             await self.send_message(
-                config.LOG_GROUP_ID, "Bot Started"
+                config.LOG_GROUP_ID, "Bot Started by ANKIT"
             )
         except:
             LOGGER(__name__).error(
@@ -43,7 +43,7 @@ class YukkiBot(Client):
         a = await self.get_chat_member(config.LOG_GROUP_ID, self.id)
         if a.status != "administrator":
             LOGGER(__name__).error(
-                "Please promote Bot as Admin in Logger Group"
+                "Please promote me as Admin in Logger Group"
             )
             sys.exit()
         if get_me.last_name:
